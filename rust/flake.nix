@@ -18,7 +18,7 @@
     in
     {
       devShells.default = pkgs.mkShell {
-        inherit (pkgs.TODO) CGO_ENABLED nativeBuildInputs;
+        inherit (pkgs.TODO) RUSTFLAGS nativeBuildInputs;
       };
       packages.default = pkgs.TODO;
     });
