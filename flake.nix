@@ -3,7 +3,10 @@
 
   outputs = _: {
     templates = {
-      golang = { path = ./golang; };
+      golang = {
+        description = "golang";
+        path = ./golang;
+      };
     };
   };
 }
