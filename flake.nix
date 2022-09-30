@@ -1,11 +1,9 @@
 {
   description = "Flake Templates";
 
-  outputs = inputs: {
+  outputs = _: {
     templates = {
-      golang = {
-        path = "";
-      };
+      golang = { path = ./golang; };
     };
   };
 }
