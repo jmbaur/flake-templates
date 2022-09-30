@@ -10,7 +10,7 @@
 
   outputs = inputs: with inputs; {
     templates = {
-      golang = { description = "golang"; path = ./golang; };
+      go = { description = "go"; path = ./go; };
       rust = { description = "rust"; path = ./rust; };
     };
   }
